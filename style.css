@@ -19,6 +19,62 @@ body {
     grid-row: 1 / 2;
 
     background-color: white;
+
+    padding: 20px 50px;
+
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    gap: 25px;
+}
+
+.search-row>div>div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-row>div>div:first-child {
+    width: 75%;
+}
+
+.search-row>div {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+#search {
+    background-color: rgb(225, 232, 240);
+    border: none;
+    width: 75%;
+    height: 1.5rem;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+#search:active {
+    outline: 2px black solid;
+}
+
+.search-row>div>div>img {
+    width: 25px;
+    height: 25px;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    width: 50px;
+    height: auto;
+}
+
+#profile-pic-bottom {
+    border-radius: 50%;
+    width: 75px;
+    height: auto;
+}
+
+#profile-stuff {
+    gap: 25px;
 }
 
 .sidebar {
