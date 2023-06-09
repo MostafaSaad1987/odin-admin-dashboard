@@ -298,3 +298,56 @@ a:active {
     align-items: center;
     gap: 5px;
 }
+
+.user-area,
+.container-header {
+    display: flex;
+
+    gap: 15px;
+
+    align-items: center;
+}
+
+.user-area {
+    justify-content: space-between;
+}
+
+.greet {
+    font-size: small;
+    font-weight: 600;
+}
+
+.profile-name {
+    font-size: large;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.header-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 25px;
+    border: 2px solid #4CAF50;
+}
+
+.header-button:hover {
+    background-color: #275b2a;
+    border-color: #275b2a;
+}
+
+.header-button:active {
+    background-color: #122b14;
+    border-color: #122b14;
+}
+
+.container-header:last-child {
+    gap: 25px;
+}
